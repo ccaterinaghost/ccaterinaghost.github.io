@@ -5,6 +5,7 @@
   <title>Caterinaghost · Creative Graphic Designer · Ottawa, Canada</title>
   <link href="css/general.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen"/>
   <meta name="description" content="Caterina O'Leary, Professional Graphic Design Graduate, Ottawa, Canada">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Caterinaghost · Creative Graphic Designer · Ottawa, Canada">
@@ -27,9 +28,9 @@
 
 </head>
 <body>
-  <div class="background1">
+  <div class="background1" id="top">
 	<section class="logosection">
-	  <h1><img src="http://placehold.it/214x287" class="logo" alt="Caterinaghost Professional Graphic Design Graduate"></h1>
+	  <a href="#top"><h1><img src="http://placehold.it/214x287" class="logo" alt="Caterinaghost Professional Graphic Design Graduate"></h1></a>
 	  <div class="links">
 	  	<a href="#about">About</a>
 	  	<a href="#portfolio">Portfolio</a>
@@ -43,7 +44,9 @@
 	</section>
 
 	<section class="portfolio-pieces" id="portfolio">
-		<img src="http://placehold.it/300x200" class="portfolio grid" alt="portfolio piece">
+		<a href="images/6x6.jpg" class="fancybox" rel="group" title="img1">
+      <img src="images/3x2.jpg" class="portfolio grid" alt="portfolio piece">
+    </a>
 		<img src="http://placehold.it/300x200" class="portfolio grid" alt="portfolio piece">
 		<img src="http://placehold.it/300x200" class="portfolio grid" alt="portfolio piece">
 		<img src="http://placehold.it/300x200" class="portfolio grid" alt="portfolio piece">
@@ -60,9 +63,15 @@
 		<img src="http://placehold.it/150x150" class="icons" alt="email">
 	</section>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/waypoints.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   </body>
 </html>

@@ -13,10 +13,11 @@ body {
 .logosection {
 	padding: 25em 0 25em;
 	width: 100%;
+	z-index: 1;
 }
 
 h1 {
-	width: 300px;
+	width: 214px;
 	margin-left: 25px;
 	float: left;
 	z-index: 3;
@@ -24,7 +25,6 @@ h1 {
 
 .logo {
 	position: relative;
-	padding-right: 5em;
 	z-index: 100;
 }
 
@@ -69,6 +69,18 @@ a {
 	text-decoration: none;
 }
 
+@media (min-width: 240px) and (max-width: 540px){
+	.links{
+		float: left;
+		margin-left: 10px;
+		margin-top: 0px;
+	}
+
+	.logosection{
+		padding: 25em 0 25em;
+	}
+
+}
 .about {
 	padding: 40em 0 15em;
 	background-color: #555555;
@@ -77,14 +89,31 @@ a {
 .about-par{
 	position: relative;
 	width: 250px;
-	margin-left: 300px;
+	margin-left: 25px;
+}
+
+.js-aboutpar-move {
+	x-webkit-animation: logo-move 1s linear forwards;
+	position: fixed;
+	top: -400px;
+}
+
+@-webkit-keyframes aboutpar-move {
+	0% {
+		top: 100px;
+	}
+
+	100% {
+		top: -400px;
+	}
 }
 
 .portfolio-pieces {
 	padding: 12em 0 12em;
 	position: relative;
 	text-align: center;
-	z-index: -1;
+	z-index: 5;
+	background-color: rgba(255,255,255,1);
 }
 
 .portfolio {
@@ -103,4 +132,11 @@ a {
 	position: relative;
 	padding: 25px;
 
+}
+
+@media (min-width: 240px) and (max-width: 650px){
+
+	.icons {
+		max-width: 100px;
+	}
 }
