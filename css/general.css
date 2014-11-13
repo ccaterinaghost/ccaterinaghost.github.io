@@ -54,10 +54,12 @@ h1 {
 	z-index: 5;
 }
 
+.linksy{
+	padding: 15px;
+}
 
 a:link {
 	color: #aaa;
-	padding: 15px;
 }
 a:visited {
 	color: #aaa;
@@ -88,7 +90,7 @@ a {
 
 .about-par{
 	position: relative;
-	width: 250px;
+	width: 200px;
 	margin-left: 25px;
 }
 

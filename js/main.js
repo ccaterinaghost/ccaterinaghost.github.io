@@ -20,9 +20,10 @@ $about.waypoint(function (direction) {
 	}
 }, {offset: '1%'});
 
+
 $(document).ready(function() {
-    $(".fancybox").fancybox({
-        openEffect  : 'elastic',
-        closeEffect : 'elastic'
-    });
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 });
