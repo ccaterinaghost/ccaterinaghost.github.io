@@ -2,7 +2,8 @@ var $win = $('window');
 var $logo = $('.logosection');
 var $about = $('.about');
 var $links = $('.links');
-var $aboutpar = $('.about-par')
+var $aboutpar = $('.about-par');
+var $contact = $('contact');
 
 $about.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -12,14 +13,13 @@ $about.waypoint(function (direction) {
 	}
 }, {offset: '50%'});
 
-$about.waypoint(function (direction) {
+$contact.waypoint(function (direction) {
 	if (direction == 'down') {
-		$aboutpar.addClass('js-aboutpar-move');
+		$aboutpar.addClass('js-about-par-move');
  	} else {
-		$aboutpar.removeClass('js-aboutpar-move');
+		$aboutpar.removeClass('js-about-par-move');
 	}
-}, {offset: '1%'});
-
+}, {offset: '500%'});
 
 $(document).ready(function() {
 	$(".fancybox").fancybox({
@@ -27,3 +27,4 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
+

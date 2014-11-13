@@ -36,7 +36,7 @@ h1 {
 
 @-webkit-keyframes logo-move {
 	0% {
-		top: -400px;
+		top: -500px;
 	}
 
 	100% {
@@ -94,16 +94,22 @@ a {
 	margin-left: 25px;
 }
 
+.js-about-par-move {
+	x-webkit-animation: about-par-move 500ms ease-out;
+	position: fixed;
+	top: -900px;
+}
 
-@-webkit-keyframes aboutpar-move {
+@-webkit-keyframes about-par-move {
 	0% {
-		top: 100px;
+		top: 800px;
 	}
 
 	100% {
-		top: -400px;
+		top: -900px;
 	}
 }
+
 
 .portfolio-pieces {
 	padding: 20em 0 20em;
