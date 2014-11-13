@@ -29,14 +29,14 @@ h1 {
 }
 
 .js-logo-move {
-	x-webkit-animation: logo-move 1s linear forwards;
+	-webkit-animation: logo-move 500ms ease-out;
 	position: fixed;
 	top: -600px;
 }
 
 @-webkit-keyframes logo-move {
 	0% {
-		top: 0px;
+		top: -400px;
 	}
 
 	100% {
@@ -84,7 +84,7 @@ a {
 
 }
 .about {
-	padding: 40em 0 15em;
+	padding: 45em 0 15em;
 	background-color: #555555;
 }
 
@@ -94,11 +94,6 @@ a {
 	margin-left: 25px;
 }
 
-.js-aboutpar-move {
-	x-webkit-animation: logo-move 1s linear forwards;
-	position: fixed;
-	top: -400px;
-}
 
 @-webkit-keyframes aboutpar-move {
 	0% {
@@ -111,16 +106,13 @@ a {
 }
 
 .portfolio-pieces {
-	padding: 12em 0 12em;
+	padding: 20em 0 20em;
 	position: relative;
 	text-align: center;
 	z-index: 5;
 	background-color: rgba(255,255,255,1);
 }
 
-.portfolio {
-	padding: 1em;
-}
 
 .contact {
 	padding: 20em 0 20em;
