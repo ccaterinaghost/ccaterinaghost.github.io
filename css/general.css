@@ -131,7 +131,12 @@ body {background:#232323;
             box-shadow: 0 -50px 20px -20px #232323 inset;
   }
 
-.content {position:relative; z-index:1; width:90%; margin:0 auto;}
+.content {
+	position:relative; 
+	z-index:1; 
+	width:90%; 
+	margin:0 auto;
+}
 
 @media only screen and (min-width:36.250em) {
   .content {width:60%;}
