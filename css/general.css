@@ -126,9 +126,7 @@ body {background:#232323;
        -moz-background-size:250%;
          -o-background-size:250%;
             background-size:250%;
-    -webkit-box-shadow: 0 -50px 20px -20px #232323 inset;
-       -moz-box-shadow: 0 -50px 20px -20px #232323 inset;
-            box-shadow: 0 -50px 20px -20px #232323 inset;
+   
   }
 
 .content {
