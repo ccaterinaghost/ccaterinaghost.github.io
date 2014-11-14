@@ -5,6 +5,19 @@ body {
 	color: #ffffff;
 }
 
+.feature {
+	position:fixed; 
+	top:0; 
+	z-index:0; 
+	width:100%; 
+	padding-top:100%; 
+	background: url(http://s3.nikecdn.com/pass/NikeBasketball/LeBron_Poster.jpg) center center no-repeat;
+    -webkit-background-size:250%;
+       -moz-background-size:250%;
+         -o-background-size:250%;
+            background-size:250%;
+   
+  }
 .background1 {
 	background-color: #222222;
 	width: 100%;
@@ -115,19 +128,7 @@ body {background:#232323;
 	display:none;
 }
 
-.feature {
-	position:fixed; 
-	top:0; 
-	z-index:0; 
-	width:100%; 
-	padding-top:100%; 
-	background: url(http://s3.nikecdn.com/pass/NikeBasketball/LeBron_Poster.jpg) center center no-repeat;
-    -webkit-background-size:250%;
-       -moz-background-size:250%;
-         -o-background-size:250%;
-            background-size:250%;
-   
-  }
+
 
 .content {
 	position:relative; 
