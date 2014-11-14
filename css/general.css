@@ -13,7 +13,7 @@ body {
 .logosection {
 	padding: 25em 0 25em;
 	width: 100%;
-	z-index: 1;
+	z-index: 10;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 
 @-webkit-keyframes logo-move {
 	0% {
-		top: -500px;
+		top: -200px;
 	}
 
 	100% {
@@ -85,37 +85,63 @@ a {
 }
 .about {
 	padding: 45em 0 15em;
-	background-color: #555555;
 }
 
 .about-par{
 	position: relative;
 	width: 200px;
 	margin-left: 25px;
+	z-index: 8;
 }
 
-.js-about-par-move {
-	x-webkit-animation: about-par-move 500ms ease-out;
-	position: fixed;
-	top: -900px;
+
+* {box-sizing:border-box}
+body, html {
+	padding:0; margin:0;
+} 
+body {background:#232323; 
+	color:#fff;
+}
+.opaque {
+	position:absolute; 
+	top:0; left:0; 
+	right:0; 
+	bottom:0; 
+	opacity:0; 
+	background:#d2d6f1;
 }
 
-@-webkit-keyframes about-par-move {
-	0% {
-		top: 800px;
-	}
-
-	100% {
-		top: -900px;
-	}
+.lt-ie9 .opaque {
+	display:none;
 }
 
+.feature {
+	position:fixed; 
+	top:0; 
+	z-index:0; 
+	width:100%; 
+	padding-top:100%; 
+	background: url(https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1555269_10153867064525131_548320353_n.jpg?oh=fb402545c8b635653284e8be8e00be63&oe=551F2ADB&__gda__=1423677059_87d0ad5f190b6ec97f61c033efa5727d) center center no-repeat;
+    -webkit-background-size:250%;
+       -moz-background-size:250%;
+         -o-background-size:250%;
+            background-size:250%;
+    -webkit-box-shadow: 0 -50px 20px -20px #232323 inset;
+       -moz-box-shadow: 0 -50px 20px -20px #232323 inset;
+            box-shadow: 0 -50px 20px -20px #232323 inset;
+  }
+
+.content {position:relative; z-index:1; width:90%; margin:0 auto;}
+
+@media only screen and (min-width:36.250em) {
+  .content {width:60%;}
+}
 
 .portfolio-pieces {
 	padding: 20em 0 20em;
 	position: relative;
 	text-align: center;
-	z-index: 5;
+	z-index: 15;
 	background-color: rgba(255,255,255,1);
 }
 
@@ -139,4 +165,8 @@ a {
 	.icons {
 		max-width: 100px;
 	}
+}
+
+.last{
+	max-height: 0px;
 }
