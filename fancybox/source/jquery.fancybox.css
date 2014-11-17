@@ -200,7 +200,7 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 10px/18px "Open Sans", sans-serif;
+	font: normal .5em "Open Sans", sans-serif;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
@@ -225,7 +225,7 @@
 	margin-right: -100%;
 	color: #222222;
 	font-weight: 300;
-	line-height: 20px;
+	line-height: 15px;
 	white-space: nowrap;
 }
 
