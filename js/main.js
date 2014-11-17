@@ -24,5 +24,3 @@ $about.waypoint(function (direction) {
 
 
 
-
-
