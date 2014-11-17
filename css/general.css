@@ -37,6 +37,11 @@ h1 {
 	z-index: 3;
 }
 
+.blur{
+	background-size: 500px;
+	margin: 100px 100px;
+}
+
 .logo {
 	position: relative;
 	z-index: 100;
@@ -85,11 +90,19 @@ a {
 	text-decoration: none;
 }
 
-@media (min-width: 240px) and (max-width: 540px){
+@media (min-width: 240px) and (max-width: 500px){
 	.links{
 		float: left;
-		margin-left: 10px;
-		margin-top: 0px;
+		margin-left: 25px;
+		margin-top: -27px;
+		max-width: 214px;
+		background-color: #fff;
+		padding: 5px 0 5px;
+	}
+	
+	.linksy{
+		padding: 5px;
+		margin-left: 17px;
 	}
 
 	.logosection{
@@ -104,14 +117,10 @@ a {
 .about-par{
 	position: relative;
 	width: 200px;
-	margin-left: 25px;
+	margin-left: 35px;
 	z-index: 8;
 }
 
-/*												feature 
-* {
-	box-sizing: border-box;
-}*/
 
 body, html {
 	padding: 0;
@@ -144,11 +153,7 @@ body {
 	margin: 0 auto;
 }
 
-@media only screen and (min-width:36.250em) {
-  .content {
-  	width:60%;
-  }
-}
+
 
 .portfolio-pieces {
 	padding: 20em 0 20em;
@@ -158,6 +163,9 @@ body {
 	background-color: rgba(255,255,255,1);
 }
 
+.grid{
+	min-width: 450px;
+}
 
 .contact {
 	padding: 20em 0 20em;
@@ -173,7 +181,7 @@ body {
 
 }
 
-@media (min-width: 240px) and (max-width: 650px){
+@media (min-width: 240px) and (max-width: 500px){
 
 	.icons {
 		max-width: 100px;
