@@ -37,11 +37,6 @@ h1 {
 	z-index: 3;
 }
 
-.blur{
-	background-size: 500px;
-	margin: 100px 100px;
-}
-
 .logo {
 	position: relative;
 	z-index: 100;
