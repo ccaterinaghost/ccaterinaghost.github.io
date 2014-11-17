@@ -30,7 +30,6 @@
 #fancybox-thumbs ul li.active {
 	opacity: 0.75;
 	padding: 0;
-	border: 1px solid #fff;
 }
 
 #fancybox-thumbs ul li:hover {
