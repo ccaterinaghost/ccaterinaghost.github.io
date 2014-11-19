@@ -114,6 +114,9 @@ a {
 	width: 200px;
 	margin-left: 35px;
 	z-index: 8;
+	font-size: 0.9rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
 }
 
 
