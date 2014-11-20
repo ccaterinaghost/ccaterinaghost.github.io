@@ -164,6 +164,13 @@ body {
 	min-width: 450px;
 }
 
+@media (min-width: 0px) and (max-width: 500px){
+	.grid{
+		min-width: 75px;
+		max-width: 175px;
+	}
+}
+
 .contact {
 	padding: 25em 0 11em;
 	width: 100%;
