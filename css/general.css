@@ -6,8 +6,8 @@ body {
 }
 
 .background1 {
-	background-color: #222222;
-	background: transparent url("../images/background-comb.png") no-repeat center top;
+	background-color: #1d2019;
+	background: transparent url("../images/background-comb2.png") no-repeat center top;
 	background-size: cover;
 	width: 100%;
 }
@@ -77,14 +77,14 @@ a {
 }
 
 @media (min-width: 240px) and (max-width: 500px){
-	h1{
+	/*h1{
 		background-color: #22211c;
-	}
+	}*/
 	.links{
-		background-color: #22211c;
+		/*background-color: #22211c;*/
 		float: left;
-		margin-left: 25px;
-		margin-top: -27px;
+		margin-left: 15px;
+		margin-top: -10px;
 		max-width: 214px;
 		padding: 5px 0 5px;
 	}
@@ -116,21 +116,26 @@ a {
 
 }
 .about {
-	padding: 45em 0 15em;
-	background-color: #22211c;
-	/*background: transparent url("../images/background-about.jpg") no-repeat center top;*/
+	padding: 35em 0 25em;
+	background-color: #847d5e;
+	background: transparent url("../images/background-comb3.png") no-repeat center top;
 	background-size: cover;
 
 }
 
 .about-par{
 	position: relative;
-	width: 200px;
-	margin-left: 35px;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
 	z-index: 8;
 	font-size: 0.9rem;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
+}
+
+.cat{
+	margin-left: 500px;
 }
 
 
