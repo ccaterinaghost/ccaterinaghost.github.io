@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #24211c;
+	background-color: #847d5e;
 }
 
 .background1 {
@@ -63,14 +63,14 @@ h1 {
 }
 
 a:link {
-	color: #aaa;
+	color: #ffffff;
 }
 a:visited {
-	color: #aaa;
+	color: #ffffff;
 }
 a:active,
 a:hover {
-	color: orange;
+	color: #cec393;
 }
 a {
 	text-decoration: none;
@@ -136,7 +136,7 @@ body, html {
 } 
 
 body {
-	color: #fff;
+	color: #cec393;
 }
 
 .opaque {
@@ -166,7 +166,7 @@ body {
 	position: relative;
 	text-align: center;
 	z-index: 15;
-	background-color: rgba(255,255,255,1);
+	background-color: #847d5e;
 }
 
 .grid{
@@ -183,7 +183,7 @@ body {
 .contact {
 	padding: 25em 0 11em;
 	width: 100%;
-	background-color: #999999;
+	background-color: #22211c;
 	text-align: center;
 	margin: 0 0;
 }
