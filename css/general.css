@@ -77,7 +77,11 @@ a {
 }
 
 @media (min-width: 240px) and (max-width: 500px){
+	h1{
+		background-color: #22211c;
+	}
 	.links{
+		background-color: #22211c;
 		float: left;
 		margin-left: 25px;
 		margin-top: -27px;
@@ -181,7 +185,7 @@ body {
 }
 
 .contact {
-	padding: 25em 0 11em;
+	padding: 30em 0 11em;
 	width: 100%;
 	background-color: #22211c;
 	text-align: center;
@@ -198,6 +202,9 @@ body {
 
 @media (min-width: 240px) and (max-width: 500px){
 
+	.contact {
+	padding: 30em 0 5em;
+	}
 	.icons {
 		max-width: 100px;
 	}
