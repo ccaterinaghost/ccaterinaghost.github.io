@@ -2,7 +2,13 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color: #847d5e;
+	background-color: #22211c;
+	color: #333222;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
 }
 
 .background1 {
@@ -115,23 +121,29 @@ a {
 }
 
 }
+
+.quotation{
+	font-size: 4em;
+}
+
 .about {
-	padding: 35em 0 25em;
-	background-color: #847d5e;
-	background: transparent url("../images/background-comb3.png") no-repeat center top;
+	padding: 30em 0 20em;
+	background-color: #22211c;
+	/*background: transparent url("../images/background-comb3.png") no-repeat center top;*/
 	background-size: cover;
 
 }
 
 .about-par{
+	padding: 0 10em 0;
 	position: relative;
-	width: 500px;
 	margin: 0 auto;
 	text-align: center;
-	z-index: 8;
-	font-size: 0.9rem;
-	font-family: 'Open Sans Condensed', sans-serif;
+	z-index: 10;
+	font-size: 2rem;
+	font-family: 'Ubuntu', sans-serif;	
 	font-weight: 300;
+	letter-spacing: 0.15em;
 }
 
 .cat{
@@ -139,14 +151,6 @@ a {
 }
 
 
-body, html {
-	padding: 0;
-	margin: 0;
-} 
-
-body {
-	color: #cec393;
-}
 
 .opaque {
 	position: absolute; 
