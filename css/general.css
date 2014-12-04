@@ -18,6 +18,13 @@ body, html {
 	width: 100%;
 }
 
+@media (min-width: 240px) and (max-width: 500px){
+	.background1{
+		background-color: rgba(37,41,29,1);
+		background-image: none;		
+	}
+}
+
 .logosection {
 	padding: 25em 0 25em;
 	width: 100%;
@@ -92,7 +99,7 @@ a {
 @media (min-width: 240px) and (max-width: 500px){
 	
 	nav,h1{
-		background-color: rgba(37,41,29,0.75);
+		background-color: rgba(37,41,29,1);
 	}
 
 	.links{
