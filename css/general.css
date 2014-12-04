@@ -20,7 +20,7 @@ body, html {
 
 @media (min-width: 240px) and (max-width: 500px){
 	.background1{
-		background-color: rgba(37,41,29,1);
+		background-color: rgba(51,50,34,1);
 		background-image: none;		
 	}
 }
@@ -95,13 +95,14 @@ a {
 @media (min-width: 240px) and (max-width: 500px){
 	
 	nav,h1{
-		background-color: rgba(37,41,29,1);
+		background-color: rgba(51,50,34,1);
+		border-radius: 5px;
 	}
 
 	.links{
 		float: left;
 		margin-left: 25px;
-		margin-top: -20px;
+		margin-top: -26px;
 		max-width: 214px;
 		padding: 5px 0 5px;
 	}
