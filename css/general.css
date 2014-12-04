@@ -209,7 +209,7 @@ a {
 }
 
 .grid{
-	min-width: 450px;
+	min-width: 400px;
 }
 
 @media (min-width: 0px) and (max-width: 500px){
@@ -225,6 +225,7 @@ a {
 	background-color: #1b2320;
 	text-align: center;
 	margin: 0 0;
+	z-index: 200;
 }
 
 .icons {
