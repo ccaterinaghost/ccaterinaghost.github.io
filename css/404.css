@@ -1,0 +1,35 @@
+/* 404 page */
+
+body{
+	background: transparent url("../images/404bg.png") no-repeat center top;
+	background-size: cover;
+	background-color: #131815;
+	height: 900px;
+
+}
+
+h1 {
+	color: #6a7870;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding-top: 10em;
+	font-family: helvetica, sans-serif;
+	font-weight: 300;
+	z-index: 5000;
+}
+
+a{
+	color: #6a7870;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding-top: 5em;
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	z-index: 20000;
+}
