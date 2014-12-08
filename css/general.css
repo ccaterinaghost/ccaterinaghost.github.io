@@ -158,11 +158,21 @@ a {
 	letter-spacing: 0.15em;
 }
 
+.stats{
+	letter-spacing: 0.15em;
+	position: relative;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5em;
+}
+
 @media (min-width: 600px) and (max-width: 1300px){
 	.about-par{
 		padding: 0 2em 0;
 		font-size: 2em;
 	}
+
 }
 
 @media (min-width: 240px) and (max-width: 600px){
